@@ -331,7 +331,7 @@ class APIRoute(routing.Route):
             # will be always created.
             self.secure_cloned_response_field: Optional[
                 ModelField
-            ] = create_cloned_field(self.response_field)
+            ] = self.response_field #create_cloned_field(self.response_field)
         else:
             self.response_field = None  # type: ignore
             self.secure_cloned_response_field = None
