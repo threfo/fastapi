@@ -1,0 +1,15 @@
+starlette==0.13.2
+pydantic<2.0.0,>=0.32.2
+requests
+aiofiles
+jinja2
+python-multipart
+itsdangerous
+pyyaml
+graphene
+ujson
+orjson
+email_validator
+uvicorn
+async_exit_stack
+async_generator
